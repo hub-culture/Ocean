@@ -186,3 +186,111 @@ python scripts/ingestion/fetch_example_dataset.py
 ```
 
 To fully automate this ingestion pipeline later, we can also trigger it using GitHub Actions inside `.github/workflows/data_pipeline.yml`. Let me know when you're ready to scaffold that too.
+
+
+
+Here is a curated list of 25 open and publicly accessible APIs and data platforms that provide valuable ocean-related data. These resources are instrumental for researchers, developers, and policymakers working on marine and climate initiatives.
+marinedatascience.co
+
+🌊 Top 25 Open Ocean Data APIs & Platforms
+Global Fishing Watch API
+Access real-time and historical data on global fishing activity to promote transparency in fisheries.
+🔗 globalfishingwatch.org/our-apis
+
+NOAA CO-OPS API
+Retrieve observations and predictions from NOAA's Center for Operational Oceanographic Products and Services.
+🔗 api.tidesandcurrents.noaa.gov
+
+Open-Meteo Marine Weather API
+Provides ocean wave forecasts and marine weather data with free access for non-commercial use.
+🔗 open-meteo.com
+
+Ocean Networks Canada OpenAPI
+Programmatically access Ocean Networks Canada's vast data archive via user-defined code.
+🔗 data.oceannetworks.ca/OpenAPI
+
+Sinay Maritime APIs
+Offers APIs for ETA predictions, CO₂ monitoring, noise emissions, and port congestion analytics.
+🔗 sinay.ai
+
+World Ocean Database (WOD)
+The world's largest collection of uniformly formatted, quality-controlled ocean profile data.
+🔗 ncei.noaa.gov/products/world-ocean-database
+
+Ocean Biodiversity Information System (OBIS)
+A global open-access data and information clearing-house on marine biodiversity.
+🔗 obis.org
+
+AquaMaps
+Provides modelled distribution maps for marine species based on environmental data.
+🔗 aquamaps.org
+
+SeaBASS (SeaWiFS Bio-optical Archive and Storage System)
+Archive of in situ oceanographic data supporting satellite remote sensing research.
+🔗 seabass.gsfc.nasa.gov
+
+OpenSeaMap
+A free nautical chart project collecting and providing open-access marine geospatial data.
+🔗 openseamap.org
+
+MarineTraffic API
+Provides real-time information on ship movements and ports worldwide.
+🔗 marinetraffic.com
+
+Argo Data System
+Offers real-time data from a global array of profiling floats measuring temperature and salinity.
+🔗 argo.ucsd.edu
+
+EMODnet (European Marine Observation and Data Network)
+Provides access to European marine data across various themes like bathymetry and biology.
+🔗 emodnet.eu
+
+SeaDataNet
+Pan-European infrastructure for managing and providing access to marine data.
+🔗 seadatanet.org
+
+ICES Oceanographic Database
+Access to oceanographic data collected by the International Council for the Exploration of the Sea.
+🔗 ices.dk
+
+Marine Copernicus
+Provides free access to operational marine data and services for the global ocean and European seas.
+🔗 marine.copernicus.eu
+
+NOAA National Centers for Environmental Information (NCEI) Ocean Archive
+Comprehensive archive of oceanographic data collected by NOAA.
+🔗 ncei.noaa.gov
+
+Marine Data Exchange (UK)
+Platform for sharing UK offshore survey data collected by the marine industry.
+🔗 marinedataexchange.co.uk
+
+Australian Ocean Data Network (AODN)
+Provides access to a wide range of Australian marine and climate data.
+🔗 aodn.org.au
+
+NOAA Fisheries Data Portal
+Access to data on fisheries, protected species, and ecosystems managed by NOAA Fisheries.
+🔗 fisheries.noaa.gov
+
+Integrated Marine Observing System (IMOS) Australia
+Collects and provides free access to marine data from around Australia.
+🔗 imos.org.au
+
+SeaDataCloud
+Enhances the SeaDataNet infrastructure with cloud services for marine data management.
+🔗 seadatanet.org
+
+Marine Institute Data Portal (Ireland)
+Provides access to a range of marine data collected by the Marine Institute of Ireland.
+🔗 marine.ie
+
+British Oceanographic Data Centre (BODC)
+National facility for storing and distributing marine data in the UK.
+🔗 bodc.ac.uk
+
+Ocean Data Portal (UNESCO IOC)
+Facilitates the discovery and exchange of oceanographic data and services.
+🔗 oceandataportal.org
+
+

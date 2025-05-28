@@ -125,3 +125,64 @@ SOFTWARE.
   }
 ]
 ```
+Ocean/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── metadata/
+│   └── sources.json
+├── scripts/
+│   ├── ingestion/
+│   │   └── fetch_example_dataset.py
+│   ├── processing/
+│   └── visualization/
+├── notebooks/
+│   └── examples.ipynb
+├── docs/
+│   ├── architecture.md
+│   └── partners.md
+└── .github/
+    ├── ISSUE_TEMPLATE/
+    ├── PULL_REQUEST_TEMPLATE.md
+    └── workflows/
+        └── data_pipeline.yml
+
+---
+
+# scripts/ingestion/fetch_example_dataset.py
+
+```python
+import os
+import requests
+
+DATA_URL = "https://example.com/data/ocean-temperature.csv"
+OUTPUT_PATH = os.path.join("data", "raw", "ocean-temperature.csv")
+
+def fetch_data():
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    print(f"Downloading data from {DATA_URL}...")
+    response = requests.get(DATA_URL)
+    response.raise_for_status()
+
+    with open(OUTPUT_PATH, "wb") as f:
+        f.write(response.content)
+
+    print(f"Data saved to {OUTPUT_PATH}")
+
+if __name__ == "__main__":
+    fetch_data()
+```
+
+---
+
+This script fetches a remote ocean temperature dataset and stores it under `data/raw/`. You can run it with:
+
+```bash
+python scripts/ingestion/fetch_example_dataset.py
+```
+
+To fully automate this ingestion pipeline later, we can also trigger it using GitHub Actions inside `.github/workflows/data_pipeline.yml`. Let me know when you're ready to scaffold that too.

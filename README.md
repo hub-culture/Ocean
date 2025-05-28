@@ -26,3 +26,18 @@ We are building tools, data standards, and resources to:
 # Clone the repository
 git clone https://github.com/hub-culture/Ocean.git
 cd Ocean
+
+Explore sample notebooks in notebooks/ or start working with data in data/.
+
+🤝 Contributing
+We welcome your contributions! Please review our CONTRIBUTING.md and CODE_OF_CONDUCT.md to get started.
+
+📄 License
+This project is licensed under the MIT License.
+
+🔗 Learn More
+Ocean Climate Fund
+
+Hub Culture Partnerships
+
+World Ocean Summit Activity

@@ -1,5 +1,3 @@
-# Ocean
-An open data initiative for the world ocean
 Ocean/
 ├── README.md
 ├── LICENSE
@@ -44,83 +42,7 @@ We are building tools, data standards, and resources to:
 
 ## 📁 Repository Structure
 
-- `data/` — Raw and processed datasets with metadata
-- `scripts/` — Ingestion, processing, and visualization tools
-- `notebooks/` — Jupyter notebooks demonstrating usage
-- `docs/` — Technical documentation and architecture
-- `.github/` — Workflow automation and contribution templates
-
-## 📊 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/hub-culture/Ocean.git
-cd Ocean
-```
-
-Explore sample notebooks in `notebooks/` or start working with data in `data/`.
-
-## 🤝 Contributing
-
-We welcome your contributions! Please review our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to get started.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## 🔗 Learn More
-
-- [Ocean Climate Fund](https://oceanclimatefund.com)
-- [Hub Culture Partnerships](https://hubculture.com/partnerships/)
-- [World Ocean Summit Activity](https://hubculture.com/hubs/518/events/630/index)
-```
----
-
-Ocean/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── metadata/
-│   └── sources.json
-├── scripts/
-│   ├── ingestion/
-│   ├── processing/
-│   └── visualization/
-├── notebooks/
-│   └── examples.ipynb
-├── docs/
-│   ├── architecture.md
-│   └── partners.md
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    ├── PULL_REQUEST_TEMPLATE.md
-    └── workflows/
-        └── data_pipeline.yml
-
----
-
-# README.md
-
-```markdown
-# Ocean Sprint Open Data Repository 🌊
-
-Welcome to the **Ocean Sprint** GitHub repository — an open data initiative led by the Ocean Climate Fund in collaboration with Hub Culture. This project aims to secure **open data architectures and resources** in support of a sustainable future for the world ocean.
-
-## 🌐 Mission
-
-We are building tools, data standards, and resources to:
-
-- Promote transparency and data accessibility across ocean regions
-- Support scientific research, policy development, and public engagement
-- Foster collaboration through open contributions from global partners
-
-## 📁 Repository Structure
-
-- `data/` — Raw and processed datasets with metadata
+- `data/` — Raw and processed datasets with metadata and [sources.json](data/sources.json)
 - `scripts/` — Ingestion, processing, and visualization tools
 - `notebooks/` — Jupyter notebooks demonstrating usage
 - `docs/` — Technical documentation and architecture
@@ -153,220 +75,53 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-# CONTRIBUTING.md
+# LICENSE
 
-```markdown
-# Contributing to Ocean Sprint Open Data Repository
+```text
+MIT License
 
-Thank you for your interest in contributing to the **Ocean Sprint** project! We welcome contributions from everyone, whether you're a researcher, data scientist, developer, policy maker, or ocean advocate.
+Copyright (c) 2025 Hub Culture and contributors
 
-## Ways to Contribute
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-- **Data Contributions**: Submit datasets that are relevant to ocean health, climate, or marine ecosystems.
-- **Code Contributions**: Help build ingestion scripts, data pipelines, or visualization tools.
-- **Documentation**: Improve clarity, usage examples, and technical documentation.
-- **Feedback**: Suggest ideas or improvements by opening an issue.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## How to Contribute
-
-1. **Fork** the repository and clone it locally.
-2. **Create a new branch** for your feature or bugfix:
-   ```bash
-   git checkout -b feature/my-contribution
-   ```
-3. **Make your changes** and commit them:
-   ```bash
-   git commit -m "Add new data source for coral bleaching events"
-   ```
-4. **Push** your changes and submit a **Pull Request**:
-   ```bash
-   git push origin feature/my-contribution
-   ```
-
-## Guidelines
-
-- Ensure all code is well-documented.
-- Follow existing folder and naming conventions.
-- Clearly cite data sources in `data/sources.json`.
-- Use the MIT license for your code and verify data can be shared publicly.
-
-## Code of Conduct
-
-This project is governed by a [Code of Conduct](CODE_OF_CONDUCT.md). Please respect others and contribute in a welcoming and inclusive environment.
-
----
-
-Thank you for helping us protect and understand the world's oceans!
-```
-Ocean/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── metadata/
-│   └── sources.json
-├── scripts/
-│   ├── ingestion/
-│   ├── processing/
-│   └── visualization/
-├── notebooks/
-│   └── examples.ipynb
-├── docs/
-│   ├── architecture.md
-│   └── partners.md
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    ├── PULL_REQUEST_TEMPLATE.md
-    └── workflows/
-        └── data_pipeline.yml
-
----
-
-# README.md
-
-```markdown
-# Ocean Sprint Open Data Repository 🌊
-
-Welcome to the **Ocean Sprint** GitHub repository — an open data initiative led by the Ocean Climate Fund in collaboration with Hub Culture. This project aims to secure **open data architectures and resources** in support of a sustainable future for the world ocean.
-
-## 🌐 Mission
-
-We are building tools, data standards, and resources to:
-
-- Promote transparency and data accessibility across ocean regions
-- Support scientific research, policy development, and public engagement
-- Foster collaboration through open contributions from global partners
-
-## 📁 Repository Structure
-
-- `data/` — Raw and processed datasets with metadata
-- `scripts/` — Ingestion, processing, and visualization tools
-- `notebooks/` — Jupyter notebooks demonstrating usage
-- `docs/` — Technical documentation and architecture
-- `.github/` — Workflow automation and contribution templates
-
-## 📊 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/hub-culture/Ocean.git
-cd Ocean
-```
-
-Explore sample notebooks in `notebooks/` or start working with data in `data/`.
-
-## 🤝 Contributing
-
-We welcome your contributions! Please review our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to get started.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## 🔗 Learn More
-
-- [Ocean Climate Fund](https://oceanclimatefund.com)
-- [Hub Culture Partnerships](https://hubculture.com/partnerships/)
-- [World Ocean Summit Activity](https://hubculture.com/hubs/518/events/630/index)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ---
 
-# CONTRIBUTING.md
+# data/sources.json
 
-```markdown
-# Contributing to Ocean Sprint Open Data Repository
-
-Thank you for your interest in contributing to the **Ocean Sprint** project! We welcome contributions from everyone, whether you're a researcher, data scientist, developer, policy maker, or ocean advocate.
-
-## Ways to Contribute
-
-- **Data Contributions**: Submit datasets that are relevant to ocean health, climate, or marine ecosystems.
-- **Code Contributions**: Help build ingestion scripts, data pipelines, or visualization tools.
-- **Documentation**: Improve clarity, usage examples, and technical documentation.
-- **Feedback**: Suggest ideas or improvements by opening an issue.
-
-## How to Contribute
-
-1. **Fork** the repository and clone it locally.
-2. **Create a new branch** for your feature or bugfix:
-   ```bash
-   git checkout -b feature/my-contribution
-   ```
-3. **Make your changes** and commit them:
-   ```bash
-   git commit -m "Add new data source for coral bleaching events"
-   ```
-4. **Push** your changes and submit a **Pull Request**:
-   ```bash
-   git push origin feature/my-contribution
-   ```
-
-## Guidelines
-
-- Ensure all code is well-documented.
-- Follow existing folder and naming conventions.
-- Clearly cite data sources in `data/sources.json`.
-- Use the MIT license for your code and verify data can be shared publicly.
-
-## Code of Conduct
-
-This project is governed by a [Code of Conduct](CODE_OF_CONDUCT.md). Please respect others and contribute in a welcoming and inclusive environment.
-
----
-
-Thank you for helping us protect and understand the world's oceans!
-```
-
----
-
-# CODE_OF_CONDUCT.md
-
-```markdown
-# Contributor Covenant Code of Conduct
-
-## Our Pledge
-
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
-
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
-
-## Our Standards
-
-Examples of behavior that contributes to a positive environment for our community include:
-
-- Demonstrating empathy and kindness toward other people
-- Being respectful of differing opinions, viewpoints, and experiences
-- Giving and gracefully accepting constructive feedback
-- Accepting responsibility and apologizing to those affected by our mistakes
-- Focusing on what is best not just for us as individuals, but for the overall community
-
-Examples of unacceptable behavior include:
-
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others’ private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
-
-## Enforcement Responsibilities
-
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
-
-## Scope
-
-This Code of Conduct applies within all community spaces and also applies when an individual is officially representing the community in public spaces.
-
-## Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders at [insert contact method].
-
-All complaints will be reviewed and investigated promptly and fairly.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
+```json
+[
+  {
+    "name": "Example Ocean Temperature Dataset",
+    "description": "Sea surface temperature data collected via satellite.",
+    "source_url": "https://example.com/ocean-temperature",
+    "license": "CC-BY-4.0",
+    "last_updated": "2025-05-01",
+    "tags": ["temperature", "climate", "satellite"]
+  },
+  {
+    "name": "Marine Protected Areas (MPA) Boundaries",
+    "description": "Geospatial data of global MPAs.",
+    "source_url": "https://example.com/mpa-boundaries",
+    "license": "ODC-By 1.0",
+    "last_updated": "2025-04-20",
+    "tags": ["biodiversity", "conservation", "geospatial"]
+  }
+]
 ```

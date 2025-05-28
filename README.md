@@ -1,5 +1,35 @@
 # Ocean
 An open data initiative for the world ocean
+Ocean/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── metadata/
+│   └── sources.json
+├── scripts/
+│   ├── ingestion/
+│   ├── processing/
+│   └── visualization/
+├── notebooks/
+│   └── examples.ipynb
+├── docs/
+│   ├── architecture.md
+│   └── partners.md
+└── .github/
+    ├── ISSUE_TEMPLATE/
+    ├── PULL_REQUEST_TEMPLATE.md
+    └── workflows/
+        └── data_pipeline.yml
+
+---
+
+# README.md
+
+```markdown
 # Ocean Sprint Open Data Repository 🌊
 
 Welcome to the **Ocean Sprint** GitHub repository — an open data initiative led by the Ocean Climate Fund in collaboration with Hub Culture. This project aims to secure **open data architectures and resources** in support of a sustainable future for the world ocean.
@@ -26,18 +56,23 @@ We are building tools, data standards, and resources to:
 # Clone the repository
 git clone https://github.com/hub-culture/Ocean.git
 cd Ocean
+```
 
-Explore sample notebooks in notebooks/ or start working with data in data/.
+Explore sample notebooks in `notebooks/` or start working with data in `data/`.
 
-🤝 Contributing
-We welcome your contributions! Please review our CONTRIBUTING.md and CODE_OF_CONDUCT.md to get started.
+## 🤝 Contributing
 
-📄 License
-This project is licensed under the MIT License.
+We welcome your contributions! Please review our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to get started.
 
-🔗 Learn More
-Ocean Climate Fund
+## 📄 License
 
-Hub Culture Partnerships
+This project is licensed under the [MIT License](LICENSE).
 
-World Ocean Summit Activity
+## 🔗 Learn More
+
+- [Ocean Climate Fund](https://oceanclimatefund.com)
+- [Hub Culture Partnerships](https://hubculture.com/partnerships/)
+- [World Ocean Summit Activity](https://hubculture.com/hubs/518/events/630/index)
+```
+---
+

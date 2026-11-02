@@ -40,6 +40,16 @@ We are building tools, data standards, and resources to:
 - Support scientific research, policy development, and public engagement
 - Foster collaboration through open contributions from global partners
 
+## 📈 Live data
+
+[`data/processed/qem/`](data/processed/qem/) holds the Ocean Data Initiative's latest export, refreshed every Monday by Hub Culture's QEM. It's the data behind [oceanclimatefund.com/data/OceanDataInitiative](https://oceanclimatefund.com/data/OceanDataInitiative).
+
+- `data.json`: tide gauges, buoys and Argo floats checked against ocean models (Copernicus Marine, NOAA OISST, MUR), coral reef heat stress (NOAA Coral Reef Watch), and marine protection, ocean finance and aid for every Atlantic Rim country (Protected Planet via the World Bank, UN SDG, World Bank projects, IATI).
+- `layers/`: the same as GeoJSON map layers tagged with H3 cells, for any GIS tool. `layers/layers.json` lists each layer's sources, licences and H3 resolutions.
+- `manifest.json`: every file's size and SHA-256, and the last day the export covers.
+
+Each source keeps its own licence and terms (see `layers/layers.json`). Earlier weeks are in this repo's history.
+
 ## 📁 Repository Structure
 
 - `data/` — Raw and processed datasets with metadata and [sources.json](data/sources.json)

@@ -1,0 +1,59 @@
+{
+  "generator": "qem export layers",
+  "addressing": "H3 (h3o); MIP1|GAIA|CELL|{h3index} per the Gaia addressing spec",
+  "layers": [
+    {
+      "id": "ocf-ocean-observations",
+      "name": "Ocean observations (Ocean Data Initiative)",
+      "description": "Tide gauges, weather buoys and Argo float profiles, each checked against independent sources by the QEM.",
+      "geometry": "Point",
+      "h3_resolutions": [
+        6,
+        9
+      ],
+      "attribution": [
+        "NOAA CO-OPS (Tides and Currents): US Government work, public domain (17 U.S.C. 105).",
+        "Marine Institute Ireland (Irish Weather Buoy Network): CC BY 4.0, crediting the Marine Institute.",
+        "Argo floats (via Ifremer ERDDAP): Argo data are free and unrestricted; cite Argo (doi:10.17882/42182).",
+        "Open-Meteo Marine Weather API: CC BY 4.0, crediting Open-Meteo.com. The free API is for non-commercial use; commercial use needs an API plan.",
+        "NASA/JPL MUR SST v4.1 (via NOAA CoastWatch ERDDAP): NASA open data, free to use with attribution (JPL MUR MEaSUREs Project, doi:10.5067/GHGMR-4FJ04).",
+        "OBIS (Ocean Biodiversity Information System): Per dataset: CC0, CC BY or CC BY-NC, carried on each speck."
+      ],
+      "features": 71,
+      "file": "ocf-ocean-observations.geojson"
+    },
+    {
+      "id": "ocf-reef-heat-stress",
+      "name": "Coral reef heat stress",
+      "description": "NOAA Coral Reef Watch's bleaching alert and Degree Heating Weeks at Atlantic Rim reef sites.",
+      "geometry": "Point",
+      "h3_resolutions": [
+        6,
+        9
+      ],
+      "attribution": [
+        "NOAA Coral Reef Watch 5 km (via PacIOOS ERDDAP): NOAA near-real-time product, public domain. The dataset also carries a Met Office OSTIA academic-only statement, which covers only its 1985-2002 reanalysis; the QEM fetches current days only."
+      ],
+      "features": 7,
+      "file": "ocf-reef-heat-stress.geojson"
+    },
+    {
+      "id": "ocf-eez-protection-finance",
+      "name": "EEZs: protection and ocean finance",
+      "description": "The EEZs of the Initiative's places and reefs, with their country's marine protected area coverage and active World Bank ocean projects.",
+      "geometry": "MultiPolygon",
+      "h3_resolutions": [
+        4
+      ],
+      "attribution": [
+        "Marine Regions EEZ boundaries (VLIZ): CC BY 4.0, crediting Flanders Marine Institute (VLIZ), Marine Regions.",
+        "World Bank World Development Indicators: CC BY 4.0, crediting the World Bank.",
+        "UN Global SDG Indicators Database: UN data, free to use with attribution to the UN Statistics Division, Global SDG Indicators Database.",
+        "World Bank Projects & Operations: CC BY 4.0, crediting the World Bank.",
+        "IATI Datastore (International Aid Transparency Initiative): Open data published by each reporting organisation under its own licence (most CC BY or ODbL); accessed through the IATI Datastore API under IATI's terms of use."
+      ],
+      "features": 7,
+      "file": "ocf-eez-protection-finance.geojson"
+    }
+  ]
+}

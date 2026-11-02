@@ -1,0 +1,27 @@
+{
+ "format": 1,
+ "latest_day": "2026-11-01",
+ "published": "2026-11-02T13:24:07Z",
+ "files": {
+  "data.json": {
+   "sha256": "e1ed64c0120725807bd2b1ff1b1e6849d42967811c1bb50c73fdca0e879c5bba",
+   "bytes": 489722
+  },
+  "layers/layers.json": {
+   "sha256": "f88a403db88cd801b8eda5b3fab67ffa9517274466f7c4b386a2494fe4138f94",
+   "bytes": 3071
+  },
+  "layers/ocf-eez-protection-finance.geojson": {
+   "sha256": "61d00e4dc07e10c10ceafa9d8af6c07c84b19e7e567159ff1d609852d9db4346",
+   "bytes": 2067757
+  },
+  "layers/ocf-ocean-observations.geojson": {
+   "sha256": "464bbb813b339f595c6a239f7f20c54a76bda14316a8c42a9e82fc40b05087ac",
+   "bytes": 20880
+  },
+  "layers/ocf-reef-heat-stress.geojson": {
+   "sha256": "86705682feb63db6aae58ae0d46dc24561ee39de64c9be8bec38bdc572dd2370",
+   "bytes": 2240
+  }
+ }
+}

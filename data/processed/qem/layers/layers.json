@@ -19,7 +19,7 @@
         "NASA/JPL MUR SST v4.1 (via NOAA CoastWatch ERDDAP): NASA open data, free to use with attribution (JPL MUR MEaSUREs Project, doi:10.5067/GHGMR-4FJ04).",
         "OBIS (Ocean Biodiversity Information System): Per dataset: CC0, CC BY or CC BY-NC, carried on each speck."
       ],
-      "features": 71,
+      "features": 214,
       "file": "ocf-ocean-observations.geojson"
     },
     {

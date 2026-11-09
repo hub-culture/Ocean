@@ -54,6 +54,36 @@
       ],
       "features": 7,
       "file": "ocf-eez-protection-finance.geojson"
+    },
+    {
+      "id": "ocf-sargassum",
+      "name": "Sargassum (floating algae index)",
+      "description": "NOAA AOML's Alternative Floating Algae Index, a 7-day satellite composite, in a box around each place: clear cells, how many are at the product's 0.004 cap, and the mean and highest index. What one satellite product saw, not tonnes on a beach; not for legal use.",
+      "geometry": "Point",
+      "h3_resolutions": [
+        6,
+        9
+      ],
+      "attribution": [
+        "NOAA AOML sargassum (AFAI, 7-day): NOAA AOML OceanWatch: may be used and redistributed for free but is not intended for legal use."
+      ],
+      "features": 13,
+      "file": "ocf-sargassum.geojson"
+    },
+    {
+      "id": "ocf-microplastics",
+      "name": "Marine microplastics samples",
+      "description": "Microplastics samples from published studies across the Atlantic, gathered by NOAA NCEI: where and when each was taken, the medium, method and mesh, the concentration and its unit, and the study with its DOI. Two samples from one study are one voice.",
+      "geometry": "Point",
+      "h3_resolutions": [
+        6,
+        9
+      ],
+      "attribution": [
+        "NOAA NCEI Marine Microplastics: US Government work (NOAA NCEI compilation), public domain; each study under its own terms."
+      ],
+      "features": 10915,
+      "file": "ocf-microplastics.geojson"
     }
   ]
 }

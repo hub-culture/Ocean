@@ -1,11 +1,11 @@
 {
  "format": 1,
  "latest_day": "2026-11-15",
- "published": "2026-11-16T08:58:40Z",
+ "published": "2026-11-16T09:27:30Z",
  "files": {
   "data.json": {
-   "sha256": "30b5d72eef85efbe62304b9ae81049d8692313b4e629680c482f17c6675800e5",
-   "bytes": 1380360
+   "sha256": "68e15ffd73ebdf4d9982e3caa1b9170a2b36b3ff52da04849d672617e31e8c36",
+   "bytes": 1522300
   },
   "layers/layers.json": {
    "sha256": "e149b4ca22b72f8b6e53c3f0f5661a549682c3ec73e41306b5403d27890ca57a",

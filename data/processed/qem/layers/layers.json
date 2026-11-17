@@ -19,7 +19,7 @@
         "NASA/JPL MUR SST v4.1 (via NOAA CoastWatch ERDDAP): NASA open data, free to use with attribution (JPL MUR MEaSUREs Project, doi:10.5067/GHGMR-4FJ04).",
         "OBIS (Ocean Biodiversity Information System): Per dataset: CC0, CC BY or CC BY-NC, carried on each speck."
       ],
-      "features": 1331,
+      "features": 1396,
       "file": "ocf-ocean-observations.geojson"
     },
     {
@@ -52,7 +52,7 @@
         "World Bank Projects & Operations: CC BY 4.0, crediting the World Bank.",
         "IATI Datastore (International Aid Transparency Initiative): Open data published by each reporting organisation under its own licence (most CC BY or ODbL); accessed through the IATI Datastore API under IATI's terms of use."
       ],
-      "features": 7,
+      "features": 9,
       "file": "ocf-eez-protection-finance.geojson"
     },
     {

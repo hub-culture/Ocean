@@ -1,35 +1,35 @@
 {
  "format": 1,
- "latest_day": "2026-11-15",
- "published": "2026-11-16T10:26:07Z",
+ "latest_day": "2026-11-16",
+ "published": "2026-11-17T08:07:23Z",
  "files": {
   "data.json": {
-   "sha256": "4e58820627f1100d1816de3239e8d8491af61420a13030c844d294b5f950f0d8",
-   "bytes": 1573500
+   "sha256": "8425ac1723a68cbc5a5cf639d151b04417160a3ab09053b67e6d4b7c85e34918",
+   "bytes": 1623588
   },
   "layers/layers.json": {
-   "sha256": "e149b4ca22b72f8b6e53c3f0f5661a549682c3ec73e41306b5403d27890ca57a",
+   "sha256": "2e1869e9c84dcdd55909a1cf58c0c4567a7f71ebc7adcbbea8f639e907270243",
    "bytes": 4450
   },
   "layers/ocf-eez-protection-finance.geojson": {
-   "sha256": "61d00e4dc07e10c10ceafa9d8af6c07c84b19e7e567159ff1d609852d9db4346",
-   "bytes": 2067757
+   "sha256": "6c1d7d74f34cc84df77610c754c58afcdbef80bc868337faed43b09634904f4c",
+   "bytes": 2096546
   },
   "layers/ocf-microplastics.geojson": {
    "sha256": "e335a8956d23d152c1f6a0d6a2028478bcce89de1548ad53ac78fc4e75df2eb4",
    "bytes": 5122965
   },
   "layers/ocf-ocean-observations.geojson": {
-   "sha256": "6b5c4abe6080fd8fc03ce8f2171b182e76a33c71c9448e342cbc824255beb7c4",
-   "bytes": 379360
+   "sha256": "61ce42355e605f32aa7a44c9dd90de07e4fb36cf27232bd1e6192d31bfc73ed2",
+   "bytes": 397867
   },
   "layers/ocf-reef-heat-stress.geojson": {
-   "sha256": "09b1136e1171de2b24fd974bd0fb826dc948b6ce33b30ff924bfa41e9376b412",
-   "bytes": 2879
+   "sha256": "26471f42ecc02bf41abb8d867fcb7fd238201a19f68c11074dc6d3bfa8d4d06a",
+   "bytes": 2883
   },
   "layers/ocf-sargassum.geojson": {
-   "sha256": "4859798db8c22c066df2b38692c128af4f38c1f22d2ff2a6eff8821ac043e7bc",
-   "bytes": 4804
+   "sha256": "69c6d0a596e6f5e97a961fcf1d020ba4efed8335114b0718367ed66f7226a70a",
+   "bytes": 4796
   }
  }
 }

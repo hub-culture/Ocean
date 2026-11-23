@@ -1,14 +1,14 @@
 {
  "format": 1,
- "latest_day": "2026-11-16",
- "published": "2026-11-17T08:07:23Z",
+ "latest_day": "2026-11-22",
+ "published": "2026-11-23T14:37:54Z",
  "files": {
   "data.json": {
-   "sha256": "8425ac1723a68cbc5a5cf639d151b04417160a3ab09053b67e6d4b7c85e34918",
-   "bytes": 1623588
+   "sha256": "b7f9174334e33b632ec2536802439a54039b1bd300d5272b7c1241774cc30875",
+   "bytes": 1928991
   },
   "layers/layers.json": {
-   "sha256": "2e1869e9c84dcdd55909a1cf58c0c4567a7f71ebc7adcbbea8f639e907270243",
+   "sha256": "86164e11ec7e91e8b61aceb08da40e9db3639c179c7f90f45ef5c04f7f2ce064",
    "bytes": 4450
   },
   "layers/ocf-eez-protection-finance.geojson": {
@@ -20,16 +20,16 @@
    "bytes": 5122965
   },
   "layers/ocf-ocean-observations.geojson": {
-   "sha256": "61ce42355e605f32aa7a44c9dd90de07e4fb36cf27232bd1e6192d31bfc73ed2",
-   "bytes": 397867
+   "sha256": "b16474719a8711f974939af40382224b36277f61fbbafd1a35e8963e0c4be042",
+   "bytes": 482166
   },
   "layers/ocf-reef-heat-stress.geojson": {
-   "sha256": "26471f42ecc02bf41abb8d867fcb7fd238201a19f68c11074dc6d3bfa8d4d06a",
-   "bytes": 2883
+   "sha256": "f0788c102c333555ccde99a79ca6c2699f3b3f2f1a5216a06ae3a6a90d49d792",
+   "bytes": 2884
   },
   "layers/ocf-sargassum.geojson": {
-   "sha256": "69c6d0a596e6f5e97a961fcf1d020ba4efed8335114b0718367ed66f7226a70a",
-   "bytes": 4796
+   "sha256": "262cc85bb5e3521d74da08faf17ca89d1dc5662c350dddace07e6d270b6d8462",
+   "bytes": 4817
   }
  }
 }
